@@ -2,8 +2,7 @@
 
 
 int number = new Random().Next(0, 1000);
-Console.Write("Исходное число: ");
-Console.WriteLine(number);
+Console.WriteLine("Исходное число: " + number);
 
 if((number / 100 > 0) && (number / 100 < 10))
 {
